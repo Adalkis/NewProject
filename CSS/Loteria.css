@@ -1,0 +1,50 @@
+body {
+    background:white;
+}
+h1{
+    text-align: center;
+}
+#numeros{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    
+}
+#num1{
+    background-color:rgb(54, 54, 231) ;
+    height: 60px;
+    width: 4%;
+    border-radius: 300px;
+}
+#num2{
+    background-color: rgb(54, 54, 231);
+    height: 60px;
+    width: 4%;
+    border-radius: 300px;
+}
+#num3{
+    background-color:rgb(54, 54, 231) ;
+    height: 60px;
+    width: 4%;
+    border-radius: 300px;
+}
+#tnum1 {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    
+}
+#tnum2{
+
+        color: white;
+        font-size: 20px;
+        text-align: center;
+}
+#tnum3{
+    color:white;
+    font-size: 20px;
+    text-align: center;
+    
+
+}

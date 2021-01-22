@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset= "iso-8559-1"/>
+    <meta name="description" content="MAPE"/>
+    <meta name="keywords" content="MAPE, aprende inglés, inglés, curso de inglés"/>
+   
+    <title>Parrafo</title>
+  
+</head>
+<body>
+    <section id="parrafo" >
+  <span id="label" >  </span>
+</section>
+
+<script>
+            var randomnumber = Math.round((Math.random() * 100));
+         alert (randomnumber);
+         var minum = 0;
+         var intentos = 0;
+        do {
+            minum = prompt ("Introduce el numero correcto");
+            if (randomnumber > minum){
+                alert ("The number needs to be higher");
+
+            }
+            if (randomnumber < minum){
+                alert ("The number needs to be lower");
+            }
+            
+            intentos ++;
+               
+
+        }while (randomnumber != minum );
+        alert ("Felicidades, has acertado o han acabado tus intentos");
+        document.write ("Has intentado" + ": " + intentos);
+
+            
+    /*var parrafo = document.getElementById('label')
+      parrafo.insertAdjacentHTML("afterend",`<span>${intentos}</span>`)*/
+        
+</script>
+</body>
+
+</html>

@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="es">
+<html>
+<head>
+  <link rel="stylesheet" href="./CSS/Calculadorabonita.css"> </link>
+  
+</head>
+<script></script>
+<body>
+    <section>
+    <section id="pantalla">
+        <input type="text" id="lolo"></input>
+    </section>
+    <section class="medio">
+        <input type="button" class="middle" value="1" id="num1"></input>
+        <input type="button" class="middle" value="2" id="num2"></input>
+        <input type="button" class="middle" value="3" id="num3"></input>
+        <input type="button" class="middle" value="/" id="dividir"></input>
+    </section>
+    <section class="medio">
+        <input type="button" class="middle" value="4" id="num4"></input>
+        <input type="button" class="middle" value="5" id="num5"></input>
+        <input type="button" class="middle" value="6" id="num6"></input>
+        <input type="button" class="middle" value="*" id="multiplicacion"></input>
+    </section>
+    <section class="medio">
+        <input type="button" class="middle" value="7" id="num7"></input>
+        <input type="button" class="middle" value="8" id="num8"></input>
+        <input type="button" class="middle"value="9" id="num9"></input>
+        <input type="button" class="middle" value="-" id="resta"></input>
+    </section>
+    <section class="medio">
+        <input type="button" class="middle" value="0" id="num0"></input>
+        <input type="button" class="middle" value="." id="punto"></input>
+        <input type="button" class="middle" value="+" id="suma"></input>
+        <input type="button" class="middle" value="=" id="igual"></input>
+    </section>
+
+    </section>
+  
+</body>
+<script>
+    var cifra ="";
+    var number1= document.getElementById("num1");
+    var number2= document.getElementById("num2");
+    var number3= document.getElementById("num3");
+    var number4= document.getElementById("num4");
+    var number5= document.getElementById("num5");
+    var number6= document.getElementById("num6");
+    var number7= document.getElementById("num7");
+    var number8= document.getElementById("num8");
+    var number9= document.getElementById("num9");
+    var number0= document.getElementById("num0");
+    var suma = document.getElementById("suma");
+    var resta = document.getElementById("resta");
+    var multiplicacion1= document.getElementById("multiplicacion");
+    var division = document.getElementById("division");
+    var usuario;
+    var result = document.getElementById("igual");
+    const valor = document.getElementById("lolo");
+    var acumulado = 0;
+    var sumar = false;
+    var restar = false;
+    var dividir1=false;
+    var multiplicar = false;
+    
+
+     document.getElementById("lolo").value = 0;    
+
+    function call(print){
+        console.log(print)
+     
+        valor.value= cifra + print;   
+        cifra = valor.value;
+
+    }
+    number1.onclick=function(){
+        call(1);
+        
+    }
+    number2.onclick=function(){
+        call(2);
+    }
+    number3.onclick=function(){
+        call(3);
+    }
+    number4.onclick=function(){
+        call(4);
+    }
+    number5.onclick=function(){
+        call(5);
+    }
+    number6.onclick=function(){
+        call(6);
+    }
+    number2.onclick=function(){
+        call(2);
+    }
+    number7.onclick=function(){
+        call(7);
+    }
+    number8.onclick=function(){
+        call(8);
+    }
+    number9.onclick=function(){
+        call(9);
+    }
+    number0.onclick=function(){
+        call(0);
+    }
+   
+    function sum (){
+        acumulado =  acumulado + parseInt (cifra);
+        valor.value = acumulado;
+        cifra=""
+        sumar = true;
+        
+   
+    }
+    suma.onclick=sum;
+      
+    function rest (){
+        acumulado =  parseInt (cifra) - acumulado;
+        valor.value = acumulado;
+        cifra="";
+        restar = true;
+        
+    }
+    resta.onclick=rest;
+
+    function mult (){
+        acumulado =  parseInt (cifra) * acumulado;
+        valor.value = acumulado;
+        cifra=""
+        multiplicar=true;
+        
+    }
+    multiplicacion1.onclick=mult;
+    
+    function divi (){
+        acumulado =  acumulado / parseInt (cifra);
+        valor.value = acumulado;
+        cifra=""
+        dividir1=true;
+    }
+    //division.onclick =divi; 
+    igual.onclick=equal;
+    function equal (){
+        if (sumar){
+        valor.value = acumulado + parseInt (cifra);
+        }
+        if (restar){
+        valor.value =  parseInt (cifra) - acumulado;
+
+        }
+        if (multiplicar){
+        valor.value = parseInt (cifra) * acumulado;;
+
+        }
+        if (dividir1){
+        valor.value = acumulado / parseInt (cifra);
+
+        }
+    }
+   
+
+   
+ 
+  
+    
+
+   
+    
+</script>
+</html>

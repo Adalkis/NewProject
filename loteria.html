@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<html>
+<head>
+
+    <meta charset= "iso-8559-1"/>
+    <meta name="description" content="MAPE"/>
+    <meta name="keywords" content="MAPE, aprende inglés, inglés, curso de inglés"/>
+    <link rel="stylesheet" href="./CSS/Loteria.css"> </link>
+    <title></title>
+</head>
+<body>
+<header>
+    <h1> Lotería </h1>
+</header >
+<section id="numeros">
+<h6 id="num1">
+    <p id="tnum1"></p>
+</h6>
+<h6 id="num2">
+    <p id="tnum2"></p>
+</h6>
+<h6 id="num3">
+    <p id="tnum3"></p>
+</h6>
+     
+</section>
+</body>
+<script>
+    var num1= document.getElementById ("tnum1");
+    var num2= document.getElementById ("tnum2");
+    var num3= document.getElementById ("tnum3");
+
+         window.onload = function (){
+         num1.innerHTML = Math.round(Math.random() * 100);
+         num2.innerHTML = Math.round(Math.random() * 100);
+         num3.innerHTML = Math.round(Math.random() * 100);
+         
+     }
+</script>
+</html>
+    

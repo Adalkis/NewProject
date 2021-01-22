@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<head>
+
+    <meta charset= "iso-8559-1"/>
+    <meta name="description" content="MAPE"/>
+    <meta name="keywords" content="MAPE, aprende inglés, inglés, curso de inglés"/>
+   
+    <title></title>
+    <script>
+       // var nombre = prompt ("Introduce tu nombre");
+        do{
+            nombre =  prompt ("Introduce tu nombre");
+        }while (!isNaN(nombre));
+
+        //var apellidos = prompt ("Introduce tus apellidos");
+        do{
+            apellidos =  prompt ("Introduce tus apellidos");
+        }while (!isNaN(apellidos))
+        //var edad = prompt ("Introduce tu edad");
+
+        do{
+            edad =  prompt ("IIntroduce tu edad");
+        }while ( edad<=0 || edad>110 || isNaN(edad))
+        
+    </script>
+
+<head>
+
+</head>
+<body>
+    <section>
+        <p>Nombre:
+            <script>
+                document.write (nombre);
+            </script>
+        </p>
+        <p>Apellidos:
+            <script>
+                document.write (apellidos);
+            </script>
+        </p>
+        <p>Edad:
+            <script>
+                document.write (edad);
+            </script>
+        </p>
+    </section>
+</body>

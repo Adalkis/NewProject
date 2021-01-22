@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+    <meta charset= "iso-8559-1"/>
+    <meta name="description" content="MAPE"/>
+    <meta name="keywords" content="MAPE, aprende inglés, inglés, curso de inglés"/>
+   
+    <title></title>
+
+    <script>
+        var number1= prompt ("Introduce number 1");
+        var number2= prompt ("Introduce number 2");
+        if (!isNaN(number1) && !isNaN (number2)){
+              var operacion = prompt ("What operation would you like to do ? 1.Suma 2.Resta 3.Division 4.Multiplicacion" ).toLocaleLowerCase();
+
+              if (operacion == "suma"){
+               alert (parseInt(number1) + parseInt (number2));
+             }
+              else if (operacion == "resta"){
+               alert (parseInt(number1) - parseInt (number2));
+             }
+             else if (operacion == "division"){
+              alert (parseInt(number1) / parseInt (number2));
+             }
+             else if (operacion == "multiplicacion"){
+              alert (parseInt(number1) * parseInt (number2));
+             }
+             else {
+              alert ("Esta operacion no está disponible");
+             }
+        }
+        else {
+             if (typeof (number1) == "string" || typeof (number1) == "string"){
+                 alert ("Has introducido un valor inválido");
+             }
+             else {
+                 alert ("Ha ocurrido un error");
+             }
+        }
+   </script>
+</head>
+
+<body>
+</body>

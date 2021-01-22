@@ -1,0 +1,171 @@
+
+body {
+    background: rgb(250, 250, 250);
+}
+#cabecera {
+    width: 80%;
+    height: 90px;
+    margin-left: 10%;
+    background-color: transparent;
+    
+}
+.features {
+    text-decoration: double underline;
+    text-decoration-color: #3D1472;
+    font-family: sans-serif;
+    font-size: 35px;
+    text-align:center;
+    padding-top: 50px;
+}
+.textoh4 {
+    font-family: system-ui;
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    
+}
+.texth5{
+    font-family: system-ui;
+    color: black;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: -10px;
+}
+
+#imagencabecera{
+    width: 8%;
+    height: 90px;
+    border-radius: 310px;
+    
+    
+}
+nav{
+    background-color: rgb(252, 252, 252);
+    margin-left: 65%;
+    width: 40%;
+    margin-top: -70px;
+    background-color:white;
+   
+}
+
+#ventajas{
+    background-color: bisque;
+    margin-top: 30%;
+
+}
+
+#menu {
+    display: inline;  
+    word-spacing: 25px;
+    
+    
+}
+#figurepadre{
+    width: 100%;
+    margin-left: 0%;
+   
+    
+}
+#figure1{
+    width: 100%;
+    height: 650px;
+        
+}
+#formulario{
+    
+    float:inherit;
+    margin-top: -40%;
+    margin-left: 70%;
+   
+}
+#razones{
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 20%;
+    text-align: center;
+}
+.imgtamaño{
+    width: 100px;  
+}
+.fa-mobile-alt{
+    font-size: 70px;
+    color: #6532A6;
+    
+}
+.fa-weebly{
+    font-size: 70px;
+    color: #6532A6;
+
+}
+
+.fa-cogs{
+    font-size: 70px;
+    color:#6532A6;
+}
+.imgrazones{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0px 300px;
+}
+.figurerazones{
+    text-align: center;
+    margin: 0px 90px;
+    
+    border-radius: 10px;
+    
+}
+.figurerazones:hover{
+    zoom: 112%;
+    
+}
+.textofigcaption{
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    background-color: rgba(255, 196, 0, 0.473);
+    height: 30px;
+    padding: 10px;
+    margin-top:5px;
+    border-radius: 10px;
+    
+}
+
+#imgrazones2{
+    width: 600px;
+    border-radius: 20px;
+}
+.contenedorfigcaption{
+    width: 250px;
+    
+}
+
+
+figure.figurerazones:hover {
+ 
+    background: #dabeff7e;
+    
+    
+    }
+#backgroundColor{
+    background: #dabeff7e;
+    height: 420px;
+}
+.imgfeatures{
+    width: 400px;
+    height: 200px;
+    margin: 0px 15px;
+    margin-top: 25px;
+}
+.textbox {
+    background: white;
+    width: 300px;
+    height: 60px;
+    margin-top: -1%;
+    margin-left: 11.4%;
+    border-radius: 5px;
+}
+#tbox {
+    text-align: center;
+    padding-top: 30px;
+}

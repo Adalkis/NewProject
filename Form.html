@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<html>
+<head>
+
+    <meta charset= "iso-8559-1"/>
+    <meta name="description" content="MAPE"/>
+    <meta name="keywords" content="MAPE, aprende inglés, inglés, curso de inglés"/>
+    <link rel="stylesheet" href="./CSS/Loteria.css"> </link>
+    <title></title>
+    <script>
+     
+        
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+        document.getElementById("imagen").addEventListener(click, cerrar, false)
+        });
+        function cerrar(){
+            $("#imagen1").text("Articulo seleccionado");
+        }
+    </script>
+
+</head>
+<body>
+    <form id="testForm">
+        <td>
+            <tr> Name </tr>
+            <input id="textName" type="text" placeholder="Introduce your name"></input>
+        </td></br>
+        <td>
+            <tr> Last Name </tr>
+            <tr><input id="textlastName" type="text" placeholder="Introduce your last name"></tr>
+        </td></br>
+        <td>
+            <tr> Password </tr>
+            <tr><input id="textPassword" type="password" placeholder="Introduce your password"></tr>
+        </td></br>
+        <input type="button" id="adalkis" value="Submit" onclick="validar()"></input>
+    </form>
+    <img id="imagen1" src="./Imagenes/elegantes.jpg"/>
+    
+    
+    <script>
+        var user = document.getElementById("textName");
+        var user1 = document.getElementById("textlastName");
+        var user2 = document.getElementById("textPassword");
+        function validar(){
+            if(user.value == "" || user1.value == "" || user2.value == ""){
+                alert("Campo requerido")
+            }
+        }
+      
+        
+
+    </script>
+    
+        
+        
+
+    
+</body>
+</html>

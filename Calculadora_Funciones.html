@@ -1,0 +1,56 @@
+<html>
+<head>
+    <script>
+    
+    var selecciona = Number (prompt ("1:suma" + " " + "2:rest" + " " + "3:multiplicacion"  + " " + "4:division"));
+    var nsuma1 = Number ( prompt ("Introduce el primer numero"))
+    var nsuma2 = Number (prompt ("Introduce el segundo numero"));
+    function suma (number1, number2){
+           
+        document.write ("El resultado de la suma es: " + (number1 + number2) );
+         
+       }
+    function resta (number1, number2){
+        document.write ("El resultado de la resta es: " + (number1 - number2));
+            
+        }
+    function division (number1, number2){
+        document.write ("El resultado de la division es: " + (number1 / number2) );
+        }
+    function multiplicacion (number1, number2){
+           
+        document.write ("El resultado de la multiplicacion es: " + (number1 * number2)  );
+        }
+        
+    if (selecciona == "1"){
+        
+        suma (nsuma1, nsuma2);
+     
+    }
+    else if (selecciona == "2") {
+        resta (nsuma1, nsuma2);
+        
+
+    }
+    else if (selecciona == "3") {
+        
+        multiplicacion(nsuma1, nsuma2);
+
+    }
+    else if (selecciona == "4") {
+        
+         division  (nsuma1, nsuma2);
+    }
+    else {
+        document.write ("La operacion no existe");
+    }
+    
+    
+
+        
+    </script>
+</head>
+    <body>
+     
+    </body>
+</html>

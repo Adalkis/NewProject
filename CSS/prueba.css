@@ -1,0 +1,223 @@
+body{
+    background:#f0f2f5;
+    margin: center;
+    
+}
+#img {
+    margin-left: 18%;
+    margin-top: 7%;
+    margin-bottom: -1%;
+    background:black(238, 238, 238);
+    width: 10%;
+    height: 10%;
+   
+    
+}
+
+h3{
+    margin-left: 18.5%;
+    margin-top: 1%;
+    font-family: SFProDisplay-RegularArial, Helvetica, sans-serif;
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: normal;
+    color: #1c1e21;
+}
+h6{
+    margin-left: 18.5%;
+    margin-top: -1%;
+    font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    line-height: 1px;
+    font-weight: normal;
+    color: #606770;
+}
+
+#sectionimage1{
+    width: 10%;
+    height: 170px;
+    margin-left: 18.5%;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    
+}
+#sectionimage2{
+    width: 10%;
+    height: 170px;
+    margin-left:1%;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+#sectionimage3{
+    width: 10%;
+    margin-left:1%;
+    border-radius: 5%;
+    height: 170px ;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+#cuadro1{
+    background-color: white;
+    width: 10%;
+    height: 50px;
+    margin-left: 18.5%;
+    margin-top: -25px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+#cuadro2{
+    background-color: white;
+    width: 10%;
+    height: 50px;
+    margin-left: 29.8%;
+    margin-top: -67px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+#cuadro3{
+    background-color: white;
+    width: 10%;
+    height: 50px;
+    margin-left: 41%;
+    margin-top: -67px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+#pimage1{
+    padding: 15px;
+    text-align: center;
+    font-family: SFProText-Regular;
+    
+}
+
+#pimage2{
+    padding: 15px;
+    text-align: center;
+    font-family: SFProText-Regular;
+}
+
+#pimage3{
+    padding: 15px;
+    text-align: center;
+    font-family: SFProText-Regular;
+}
+#formulario{
+    background-color: white;
+    width: 25%;
+    height: 360px;
+    margin-top: -290px;
+    margin-left: 55%;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 10px rgb(122, 122, 122);
+  
+}
+#Email{
+    background-color:white;
+    width: 90%;
+    height: 50px;
+    margin-top: 25px;
+    border: 0.01px solid rgb(206, 206, 206);
+    border-radius: 5px;  
+    margin-left: 3.95%;
+    
+}
+::placeholder{
+    padding-left: 5%;
+    font-size: 14px;
+}
+#password{
+    background-color:white;
+    width: 90%;
+    margin-left: 3.95%;
+    height: 50px;
+    margin-top: 20px;
+    border: 0.01px solid rgb(206, 206, 206);
+    border-radius: 5px;  
+
+}
+#iniciobutton{
+    margin-top: 5%;
+    margin-left: 5%;
+    background-color: #1877f2;
+    width: 90%;
+    height: 50px;
+    border-radius: 5px;
+    border: transparent;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: white;
+
+}
+#cuentabutton{
+    margin-top: 5%;
+    margin-left: 23%;
+    background-color: #42b72a;
+    width: 55%;
+    height: 50px;
+    border-radius: 5px;
+    border: transparent;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+   
+
+}
+#textoformulario{
+    float:right;
+    margin-right: 5%;
+    margin-top: 6%;
+    color: #1877f2;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline #1877f2;
+    border-bottom:solid rgb(197, 193, 193);
+    border-width: 1px;
+    height: 30px;
+    width:90% ;
+    text-align: center;
+
+   
+}
+a:hover{
+   
+    color: black;
+}
+#linktextofinal{
+    color: black;
+    margin-left: 56.5%;
+    
+    
+}
+#sectionlinktf{
+    margin-top: 30px;
+   
+    font-size: 13px;
+    font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+}
+#textofinal{
+    float:right;
+    margin-top: -15px;
+    margin-right: 21.3%;
+    font-size: 13px;
+    font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+   
+    
+}
+
+#textofinal2{
+   
+    margin-top: -1px;
+    margin-left: 64%;
+    font-size: 13px;
+    font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+    
+}
+img#sectionimage1:hover {
+    box-shadow: 2px 2px 5px gray;
+}
+img#sectionimage2:hover {
+    box-shadow: 2px 2px 5px gray;
+}
+img#sectionimage3:hover {
+    box-shadow: 2px 2px 5px gray;
+}

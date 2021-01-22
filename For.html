@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script>
+        
+        /*for (var a=10; a>=0; a--){
+            alert("hola");
+            console.log (a);
+        }*/
+        var trabajadores=[];
+        var persona="";
+        var contadores=0;  
+        while (persona!="salir"){
+            persona = prompt ("Introduce tu nombre");
+            trabajadores[contadores] = persona;
+            contadores ++;
+        }
+        trabajadores.pop();
+        for (var i=0; i<trabajadores.length; i++){
+            document.write (trabajadores [i]);
+        }
+
+        function dia_de_hoy(){
+            var hoy = new Date();
+            document.write ("El dia de hoy es: " + hoy.toDateString());
+        }
+       dia_de_hoy();
+    
+    </script>
+</head>
+    <body>
+     
+    </body>
+</html>

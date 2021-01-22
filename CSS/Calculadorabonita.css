@@ -1,0 +1,23 @@
+
+.medio{
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.middle {
+    height: 50px;
+    width: 70px;
+    background:  rgb(255, 255, 255);
+    border-color: rgb(255, 255, 255);
+    font-size: 16px;
+}
+#pantalla{
+   
+    width: 14.45%;
+    padding: 30px;
+    margin: auto;
+    background-color: rgb(243, 243, 243);
+    
+}
+    
